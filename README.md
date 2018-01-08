@@ -1,4 +1,4 @@
-# watching
-Watch website
+# Watching projects list 😮 🙈
 
-[Icor](http://collinhover.com/lab/ichor/) [Source code](https://github.com/collinhover/ichor)
+- [Icor](http://collinhover.com/lab/ichor/) 
+- [Source code](https://github.com/collinhover/ichor)

@@ -1,0 +1,12 @@
+*.DS_Store
+*.o
+*.log
+*.gcov
+*.gcda
+*.gcno
+open
+test
+example
+
+# Editors
+.vscode

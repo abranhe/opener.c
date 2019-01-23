@@ -1,0 +1,19 @@
+{
+  "name": "open",
+  "version": "1.0.0",
+  "description": "Is not difficult anymore to open a URL in C",
+  "license": "MIT",
+  "keywords": [
+    "open",
+    "open-url",
+    "tool"
+  ],
+  "repo": "abranhe/open",
+  "src": [
+    "open.h",
+    "open.c"
+  ],
+  "dependencies": {
+    "abranhe/os.c": "1.0.2"
+  }
+}

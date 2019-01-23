@@ -1,6 +1,6 @@
 <p align="center">
 	<br>
-	<img src="https://cdn.abranhe.com/projects/opener/logo.svg">
+	<img src="https://cdn.abranhe.com/projects/open/logo.svg">
 	<br>
 	<b>opener</b>: Open URLs in C (Cross-Platform)
 	<br>

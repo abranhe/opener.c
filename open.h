@@ -12,7 +12,7 @@
 extern "C" {
 #endif
 
-void open(const char * url);
+int open(const char *url);
 
 #ifdef __cplusplus
 }

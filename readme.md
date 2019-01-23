@@ -47,13 +47,13 @@ $ make run-example
 
 ## API
 
-#### `void open(char * url);`
+#### `int open(const char *link);`
 
 *Open a URL on the default browser.*
 
 ###### Params:
 
-- `url`: The url you whish to be opened
+- `link`: The url you whish to be opened
 
 ## Related
 

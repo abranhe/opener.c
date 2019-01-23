@@ -20,11 +20,11 @@ create_cmd(const char * cmd, const char * link) {
     return url;
 }
 
-void 
-open(const char * url) {
+int
+open(const char *url) {
     
-    const char * platform = operating_system();
-    const char * cmd = NULL;
+    const char *platform = operating_system();
+    const char *cmd = NULL;
 
     // Hanlde macOS
     if (!strcmp(platform, "macOS")) {
@@ -42,8 +42,9 @@ open(const char * url) {
       cmd = "xdg-open";
     }
 
-    char * script = create_cmd(cmd, url);
+    char *script = create_cmd(cmd, url);
 
     system(script);
     free(script);
+    return 0;
 }

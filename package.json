@@ -1,6 +1,6 @@
 {
-  "name": "opener",
-  "version": "2.0.0",
+  "name": "opener.c",
+  "version": "2.0.1",
   "description": "Is not difficult anymore to open a URL in C",
   "license": "MIT",
   "keywords": [
@@ -9,7 +9,7 @@
     "tool",
     "opener"
   ],
-  "repo": "abranhe/open",
+  "repo": "abranhe/opener.c",
   "src": [
     "opener.h",
     "opener.c"

@@ -1,5 +1,5 @@
 //
-// open.c
+// opener.c
 // Open URLS in C
 //
 // MIT licensed.
@@ -21,7 +21,7 @@ create_cmd(const char * cmd, const char * link) {
 }
 
 int
-open(const char *url) {
+opener(const char *url) {
     
     const char *platform = operating_system();
     const char *cmd = NULL;

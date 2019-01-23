@@ -1,4 +1,4 @@
-SRC = example.c open.c $(wildcard deps/*/*.c)
+SRC = example.c opener.c $(wildcard deps/*/*.c)
 
 OBJ_SRC = $(SRC:.c=.o)
 
@@ -26,4 +26,4 @@ run-example: example
 	./example
 
 clean:
-	rm -f open example *.o deps/**/*.o *.gc{ov,da,no}
+	rm -f opener example *.o deps/**/*.o *.gc{ov,da,no}

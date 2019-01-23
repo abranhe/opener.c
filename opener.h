@@ -1,8 +1,8 @@
-#ifndef OPEN_H
-#define OPEN_H
+#ifndef OPENER_H
+#define OPENER_H
 
 //
-// open.h
+// opener.h
 //
 // MIT licensed.
 // Copyright (c) Abraham Hernandez <abraham@abranhe.com>
@@ -12,10 +12,10 @@
 extern "C" {
 #endif
 
-int open(const char *url);
+int opener(const char *url);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // OPEN_H
+#endif // OPENER_H

@@ -1,19 +1,19 @@
 <p align="center">
 	<br>
-	<img src="https://cdn.abranhe.com/projects/open/logo.svg">
+	<img src="https://cdn.abranhe.com/projects/opener/logo.svg">
 	<br>
-	<b>open</b>: Open URLs in C (Cross-Platform)
+	<b>opener</b>: Open URLs in C (Cross-Platform)
 	<br>
 </p>
 
 <p align="center">
-	<!-- <a href="https://travis-ci.org/abranhe/open">
-		<img src="https://img.shields.io/travis/abranhe/open.svg?logo=travis"/>
+	<!-- <a href="https://travis-ci.org/abranhe/opener">
+		<img src="https://img.shields.io/travis/abranhe/opener.svg?logo=travis"/>
 	</a> -->
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
 	<a href="https://patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
-	<a href="https://github.com/abranhe/open/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/open.svg" /></a>
+	<a href="https://github.com/abranhe/opener/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/opener.svg" /></a>
   <br>
   <br>
 </p>
@@ -24,17 +24,17 @@
 *Using [Clib](https://github.com/clibs/clib)*
 
 ```sh
-$ clib install abranhe/open
+$ clib install abranhe/opener
 ```
 
 ## Usage
 
 ```c
-#include "open.h"
+#include "opener.h"
 
 int main()
 {
-	open("https://abranhe.com");
+	opener("https://abranhe.com");
 	return 0;
 }
 ```
@@ -47,17 +47,17 @@ $ make run-example
 
 ## API
 
-#### `int open(const char *link);`
+#### `int opener(const char *link);`
 
 *Open a URL on the default browser.*
 
 ###### Params:
 
-- `link`: The url you whish to be opened
+- `link`: The url you whish to be openered
 
 ## Related
 
-- [open-cli][open-cli]: CLI tool written in C for this package.
+- [opener-cli][opener-cli]: CLI tool written in C for this package.
 - [os.c][os.c]: C library to know your operating system.
 
 ## Team
@@ -73,6 +73,6 @@ $ make run-example
 <!-------------------- Links ------------------------>
 [abranhe]: https://github.com/abranhe
 [abranhe-img]: https://avatars3.githubusercontent.com/u/21347264?s=50
-[license]: https://github.com/abranhe/open/blob/master/license
+[license]: https://github.com/abranhe/opener/blob/master/license
 [os.c]: https://github.com/abranhe/os.c
-[open-cli]: https://github.com/abranhe/open-cli
+[opener-cli]: https://github.com/abranhe/opener-cli

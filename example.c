@@ -1,7 +1,7 @@
-#include "open.h"
+#include "opener.h"
 
 int main() {
     // Open abranhe.com
-    open("https://abranhe.com");
+    opener("https://abranhe.com");
     return 0;
 }

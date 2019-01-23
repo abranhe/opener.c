@@ -1,6 +1,6 @@
 {
   "name": "open",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Is not difficult anymore to open a URL in C",
   "license": "MIT",
   "keywords": [

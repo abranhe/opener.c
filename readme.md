@@ -47,7 +47,7 @@ $ make run-example
 
 ## API
 
-#### `void * open();`
+#### `void * open(char * url);`
 
 *Open a URL on the default browser.*
 

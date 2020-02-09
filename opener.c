@@ -9,8 +9,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "os.h"
-
 char * 
 create_cmd(const char * cmd, const char * link) {
     char * url = malloc(strlen(cmd) + strlen(link) + 1);
@@ -22,25 +20,16 @@ create_cmd(const char * cmd, const char * link) {
 
 int
 opener(const char *url) {
-    
-    const char *platform = operating_system();
-    const char *cmd = NULL;
 
-    // Hanlde macOS
-    if (!strcmp(platform, "macOS")) {
-      cmd = "open";
-
-    // Handle Windows
-    } else if (!strcmp(platform, "win32") || !strcmp(platform, "win64")) {
-      cmd = "start";
-
-    // Handle Linux, Unix, etc
-    } else if (!strcmp(platform, "unix")
-      || !strcmp(platform, "linux") 
-      || !strcmp(platform, "freeBSD") 
-      || !strcmp(platform, "other")) {
-      cmd = "xdg-open";
-    }
+#ifdef _WIN32
+#define cmd "open"
+#elif _WIN64
+#define cmd "open"
+#elif __APPLE__ || __MACH__
+#define cmd "open"
+#else
+#define cmd "xdg-open"
+#endif    
 
     char *script = create_cmd(cmd, url);
 

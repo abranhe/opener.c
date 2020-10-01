@@ -28,7 +28,7 @@ opener(const char *url) {
 
     // Hanlde macOS
     if (!strcmp(platform, "macOS")) {
-      cmd = "open";
+      cmd = "open";                         // Define Operating System.
 
     // Handle Windows
     } else if (!strcmp(platform, "win32") || !strcmp(platform, "win64")) {

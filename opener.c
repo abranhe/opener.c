@@ -13,7 +13,7 @@
 
 char * 
 create_cmd(const char * cmd, const char * link) {
-    char * url = malloc(strlen(cmd) + strlen(link) + 1);
+    char * url = malloc(strlen(cmd) + strlen(link) + 2);
     strcpy(url, cmd);
     strcat(url, " ");
     strcat(url, link);
